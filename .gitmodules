@@ -2,3 +2,14 @@
 	path = frontend
 	url = git@github.com:mediano11/cash-flow-frontend.git
 	branch = dev
+
+[submodule "backend"]
+	path = backend
+	url = git@github.com:mediano11/cash-money-back.git
+	branch = dockerized
+
+
+# Commands 
+# git submodule update --remote (for updating submodules)
+# git pull --recurse-submodules
+
